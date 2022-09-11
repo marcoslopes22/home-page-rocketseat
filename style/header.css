@@ -1,0 +1,51 @@
+/*header style*/
+
+#header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 70vh;
+    background-image: url("https://www.rocketseat.com.br/_next/image?url=%2Fimages%2Fhome%2Fhero-background.png&w=1920&q=100");
+    color: var(--main-color);
+}
+#header h3{
+    margin: 10rem 0 1rem;
+    padding: 0;
+    font-size: var(--primary-font-size);
+}
+#header p{
+    font-size: 1.2rem;
+}
+#header .header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .header-btn button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2rem 0;
+    padding: 0.3rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+}
+#header .header-btn button:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color-hover);
+}
+#header .header-btn button i{
+    margin: 0.3rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color-hover);
+}

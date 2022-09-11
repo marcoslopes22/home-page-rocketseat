@@ -1,0 +1,35 @@
+/*network*/
+
+#network{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+#network .network-content{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+}
+#network i{
+    margin: 0 0.1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #222227;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#network i:hover{
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+}
+#network .home-button{
+    color: #545459;
+}
+#network .home-button i:hover{
+    color: var(--main-color);
+    background-color: #3c3c43;
+}

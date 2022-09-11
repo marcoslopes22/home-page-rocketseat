@@ -1,0 +1,23 @@
+/*company*/
+
+#company{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-color);
+    background-color: var(--primary-color);
+}
+#company h3{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: var(--primary-font-size);
+}
+#company p{
+    margin: 0 0 5rem 0;
+    font-size: var(--secondary-font-size);
+}
+#company .company-imgs img{
+    margin: 1rem 2rem;
+}

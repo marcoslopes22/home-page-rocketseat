@@ -1,0 +1,94 @@
+/*navbar style*/
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    background-color: rgb(36, 36, 36);
+}
+
+/*nav*/
+#navbar .nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0;
+    color: var(--secondary-color);
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+/*brand*/
+#navbar .nav .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+#navbar .nav .brand h3{
+    margin: 0 0.5rem;
+    color: var(--main-color);
+}
+#navbar .nav .brand i{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+/*content*/
+#navbar .nav .content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+#navbar .nav .content a{
+    color: var(--complement-color);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+#navbar .nav .content .a-active{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+/*login and register button*/
+#navbar .nav .login-register{
+    display: flex;
+}
+#navbar .nav .login-register button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+#navbar .nav .login-register .login-button{
+    color: var(--main-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    transition: 0.3s;
+}
+#navbar .nav .login-register .login-button i{
+    color: var(--secondary-color);
+    margin: 0 0.3rem;
+}
+#navbar .nav .login-register .login-button:hover{
+    color: var(--primary-color);
+    background-color: var(--tercenary-color);
+}
+#navbar .nav .login-register .create-account{
+    color: var(--main-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+#navbar .nav .login-register .create-account:hover{
+    background-color: var(--secondary-color);
+}

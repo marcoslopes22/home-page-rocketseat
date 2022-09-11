@@ -1,0 +1,23 @@
+/*footer*/
+
+#footer{
+    margin: 0;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--main-color);
+    background-color: var(--primary-color);
+    background-color: rgb(28, 28, 28);
+    flex-wrap: wrap;
+}
+#footer .colunm-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+#footer .colunm-footer a{
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: var(--complement-color);
+}

@@ -1,0 +1,36 @@
+/*services*/
+
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    color: var(--main-color);
+    background-color: var(--primary-color);
+    flex-wrap: wrap;
+}
+#services .services-title{
+    text-align: center;
+    font-size: var(--primary-font-size);
+}
+#services .services-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#services .services-box .show-services{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#services .services-box .show-services .services-itens{
+    width: 15rem;
+    margin: 1rem 2rem;
+}
+#services .services-box .show-services .services-itens i{
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+}
+#services .services-box .show-services .services-itens h3{
+    font-size: 1.6rem;
+}

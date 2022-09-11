@@ -1,0 +1,13 @@
+/*show*/
+
+#show{
+    margin: 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    box-shadow: 0px -40px 50px 0px rgba(0,0,0,.600);
+}
+#show iframe{
+    border-radius: 10px;
+}
